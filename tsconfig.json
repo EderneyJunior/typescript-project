@@ -15,7 +15,8 @@
         "ignoreDeprecations": "6.0",
         "baseUrl": "./src",
         "paths": {
-
+            "#settings/*": ["./settings/*"],
+            "#functions/*": ["./functions/*"]
         }
     },
     "include": ["src"],
