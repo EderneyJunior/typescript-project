@@ -16,7 +16,9 @@
         "baseUrl": "./src",
         "paths": {
             "#settings/*": ["./settings/*"],
-            "#functions/*": ["./functions/*"]
+            "#functions/*": ["./functions/*"],
+            "#database":["./database/index.ts"],
+            "#schemas/*": ["./database/schemas/*"],
         }
     },
     "include": ["src"],

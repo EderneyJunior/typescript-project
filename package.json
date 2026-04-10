@@ -33,6 +33,12 @@
     ],
     "#functions/*": [
       "./build/functions/*"
+    ],
+    "#database/*": [
+      "./build/database/index.js"
+    ],
+    "#schemas/*": [
+      "./build/schemas/*"
     ]
   }
 }
