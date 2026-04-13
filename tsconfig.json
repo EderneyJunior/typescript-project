@@ -19,6 +19,8 @@
             "#functions/*": ["./functions/*"],
             "#database":["./database/index.ts"],
             "#schemas/*": ["./database/schemas/*"],
+            "#services/*": ["./services/*"],
+            "#controllers/*": ["./controllers/*"],
         }
     },
     "include": ["src"],

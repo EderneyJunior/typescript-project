@@ -5,8 +5,10 @@ import path from 'node:path';
 import log from 'consola';
 import ck from 'chalk';
 import "#settings/env.js";
+import { errorHandler } from '#functions/error.js';
 
 const app = fastify()
+app.setErrorHandler(errorHandler)
 app.register(cors, { origin: "*"})
 app.register(autoload, { 
     dir: path.join(import.meta.dirname, "routes"),

@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsx --env-file=.env src/index.ts",
-    "start": "node --env-file=.env ."
+    "start": "node --env-file=.env .",
+    "watch": "tsx --env-file=.env --watch src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -39,6 +40,12 @@
     ],
     "#schemas/*": [
       "./build/schemas/*"
+    ],
+    "#services/*": [
+      "./build/services/*"
+    ],
+    "#controllers/*": [
+      "./build/controllers/*"
     ]
   }
 }
